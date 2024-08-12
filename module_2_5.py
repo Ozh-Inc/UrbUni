@@ -4,7 +4,7 @@ def get_matrix(n, m, value):
         Buzz = []
         matrix.append(Buzz)
         for column in range(m):
-            Buzz.append(value)
+            matrix[row].append(value)
     return matrix
 print(get_matrix(3,5,'Я сделал'))
 
