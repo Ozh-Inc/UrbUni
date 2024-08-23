@@ -3,7 +3,7 @@ def get_multiplied_digits(number):
     first = int(str_number[0])
     if len(str_number) == 1:
         return first
-    if '0' in str_number:
+    if '0' in str_number: # Эту часть кода можно убрать при необходимости.
         return 0
     return first * get_multiplied_digits(int(str_number[1:]))
 
