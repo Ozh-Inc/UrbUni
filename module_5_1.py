@@ -4,7 +4,7 @@ class House:
         self.number_of_floors = floors
     def go_to(self, target_floor: int, alt_method = False):
         if target_floor < 1 or target_floor > self.number_of_floors:
-            print('Ну попробуй.')
+            print('Ну попробуй. Такого этажа не существует.')
             return
         if alt_method == False:
             print(list(range(1, target_floor + 1)))
