@@ -100,7 +100,7 @@ class UrTube:
 
 ur = UrTube()
 v1 = Video('Лучший язык программирования 2024 года', 200)
-v2 = Video('WikiLeaks: Charlie Caplain body whereabouts 2024', 2, adult_mode=True)
+v2 = Video('WikiLeaks: Charlie Chaplain body whereabouts 2024', 2, adult_mode=True)
 
 # Добавление видео
 ur.add_videos(v1, v2)
@@ -110,11 +110,11 @@ print(ur.get_videos('лучший'))
 print(ur.get_videos('2024'))
 
 # Проверка на вход пользователя и возрастное ограничение
-ur.watch_video('WikiLeaks: Charlie Caplain body whereabouts 2024')
+ur.watch_video('WikiLeaks: Charlie Chaplain body whereabouts 2024')
 ur.register('vasya_pupkin', 'lolkekcheburek', 13)
-ur.watch_video('WikiLeaks: Charlie Caplain body whereabouts 2024')
+ur.watch_video('WikiLeaks: Charlie Chaplain body whereabouts 2024')
 ur.register('urban_pythonist', 'iScX4vIJClb9YQavjAgF', 25)
-ur.watch_video('WikiLeaks: Charlie Caplain body whereabouts 2024')
+ur.watch_video('WikiLeaks: Charlie Chaplain body whereabouts 2024')
 
 # Проверка входа в другой аккаунт
 ur.register('vasya_pupkin', 'F8098FM8fjm9jmi', 55)
